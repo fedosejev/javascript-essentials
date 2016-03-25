@@ -26,7 +26,7 @@ var buyTesla = function buyTeslaStock() {
   return typeof buyTeslaStock;
 };
 
-console.log(typeof buyTeslaStock, buyTesla()); // undefined function
+console.log(typeof buyTeslaStock, buyTesla()); // 'undefined' 'function'
 ```
 
 
