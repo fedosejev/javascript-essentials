@@ -15,11 +15,18 @@ function openDoors() {
 }
 ```
 ```js
-openDoors(); // TypeError: openDoors is not a function
-
-var openDoors = function () {
-  console.log('Opening doors');
+var buyTesla = function buyTeslaStock() {
+  console.log('Buying TSLA stock');
 };
+
+buyTeslaStock(); // ReferenceError: buyTeslaStock is not defined
+```
+```js
+var buyTesla = function buyTeslaStock() {
+  return typeof buyTeslaStock;
+};
+
+console.log(typeof buyTeslaStock, buyTesla()); // undefined function
 ```
 
 
