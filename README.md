@@ -101,3 +101,8 @@ try {
 
 console.log(blockLevelVariable); // ReferenceError: blockLevelVariable is not defined
 ```
+### 12.
+
+```js
+console.log('100' - '80'); // 20
+```
