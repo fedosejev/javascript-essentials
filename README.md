@@ -87,3 +87,17 @@ tesla.name = 'Model 3';
 
 console.log(tesla.name); // 'Model 3'
 ```
+
+### 11.
+
+```js
+'use strict';
+
+try {
+	throw 'Error';
+} catch (blockLevelVariable) {
+	// 
+}
+
+console.log(blockLevelVariable); // ReferenceError: blockLevelVariable is not defined
+```
