@@ -19,6 +19,8 @@ function openDoors() {
   console.log('Opening doors');
 }
 ```
+
+### 4.
 ```js
 var buyTesla = function buyTeslaStock() {
   console.log('Buying TSLA stock');
@@ -26,6 +28,8 @@ var buyTesla = function buyTeslaStock() {
 
 buyTeslaStock(); // ReferenceError: buyTeslaStock is not defined
 ```
+
+### 5.
 ```js
 var buyTesla = function buyTeslaStock() {
   return typeof buyTeslaStock;
@@ -33,12 +37,18 @@ var buyTesla = function buyTeslaStock() {
 
 console.log(typeof buyTeslaStock, buyTesla()); // 'undefined' 'function'
 ```
+
+### 6.
 ```js
 console.log(typeof NaN); // 'number'
 ```
+
+### 7.
 ```js
 console.log(typeof model); // 'undefined' not a ReferenceError!
 ```
+
+### 8.
 Turn any value into it's `boolean` value:
 ```js
 var tesla = 'Model S';
@@ -51,3 +61,7 @@ First `!` converts value into an opposite boolean value. Second `!` converts it 
 console.log(Boolean('Model S')); // true
 ```
 
+### 9.
+```js
+console.log(this === window); // true
+```
