@@ -41,3 +41,8 @@ console.log(!! tesla); // true
 ```
 First `!` converts value into an opposite boolean value. Second `!` converts it into an opposite value.
 
+`!!` is a shortcut for:
+```js
+console.log(Boolean('Model S')); // true
+```
+
