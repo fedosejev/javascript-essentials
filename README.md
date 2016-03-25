@@ -28,5 +28,7 @@ var buyTesla = function buyTeslaStock() {
 
 console.log(typeof buyTeslaStock, buyTesla()); // 'undefined' 'function'
 ```
-
+```js
+console.log(typeof NaN); // 'number'
+```
 
