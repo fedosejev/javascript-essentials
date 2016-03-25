@@ -65,3 +65,25 @@ console.log(Boolean('Model S')); // true
 ```js
 console.log(this === window); // true
 ```
+
+### 10.
+
+```js
+var tesla = {
+    value: 'Model X',
+    get name() {
+    	console.log('Getting model name...');
+        return this.value;
+    },
+    set name(value) {
+    	console.log('Setting model name...');
+        this.value = value;
+    }
+};
+
+console.log(tesla.name); // 'Model X'
+
+tesla.name = 'Model 3';
+
+console.log(tesla.name); // 'Model 3'
+```
