@@ -106,3 +106,15 @@ console.log(blockLevelVariable); // ReferenceError: blockLevelVariable is not de
 ```js
 console.log('100' - '80'); // 20
 ```
+
+### 13.
+
+```js
+var investment = {
+	valueOf: function () {
+		return 1000;
+	}
+};
+
+console.log(5000 - investment); // 4000
+```
