@@ -34,4 +34,10 @@ console.log(typeof NaN); // 'number'
 ```js
 console.log(typeof model); // 'undefined' not a ReferenceError!
 ```
+Turn any value into it's `boolean` value:
+```js
+var tesla = 'Model S';
+console.log(!! tesla); // true
+```
+First `!` converts value into an opposite boolean value. Second `!` converts it into an opposite value.
 
