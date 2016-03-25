@@ -1,12 +1,17 @@
 # Essentials of JavaScript
 
+### 1.
 ```js
 console.log(tesla); // ReferenceError: tesla is not defined
 ```
+
+### 2.
 ```js
 console.log(tesla); // undefined
 var tesla = 'Model S';
 ```
+
+### 3.
 ```js
 openDoors(); // 'Opening doors'
 
