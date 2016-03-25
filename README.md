@@ -8,7 +8,7 @@ console.log(tesla); // undefined
 var tesla = 'Model S';
 ```
 ```js
-openDoors(); // Opening doors
+openDoors(); // 'Opening doors'
 
 function openDoors() {
   console.log('Opening doors');
