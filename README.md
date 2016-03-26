@@ -81,10 +81,13 @@ var tesla = {
     }
 };
 
+// 'Getting model name...'
 console.log(tesla.name); // 'Model X'
 
+// 'Setting model name...'
 tesla.name = 'Model 3';
 
+// 'Getting model name...'
 console.log(tesla.name); // 'Model 3'
 ```
 
@@ -96,7 +99,7 @@ console.log(tesla.name); // 'Model 3'
 try {
 	throw 'Error';
 } catch (blockLevelVariable) {
-	// 
+	// Do something
 }
 
 console.log(blockLevelVariable); // ReferenceError: blockLevelVariable is not defined
