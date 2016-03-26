@@ -118,3 +118,22 @@ var investment = {
 
 console.log(5000 - investment); // 4000
 ```
+
+### 14.
+
+#### Primitive Type
+
+```js
+var white = 'Tesla S';
+var red = white; // Copying 'Tesla S'!
+```
+
+#### Reference Type
+
+```js
+var white = {
+	name: 'Model S'
+};
+
+var red = white; // Copying a pointer to an object!
+```
