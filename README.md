@@ -54,7 +54,7 @@ Turn any value into it's `boolean` value:
 var tesla = 'Model S';
 console.log(!! tesla); // true
 ```
-First `!` converts value into an opposite boolean value. Second `!` converts it into an opposite value.
+First `!` converts value into an opposite _boolean_ value. Second `!` converts it into an _opposite_ value.
 
 `!!` is a shortcut for:
 ```js
