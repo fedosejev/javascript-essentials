@@ -137,3 +137,10 @@ var white = {
 
 var red = white; // Copying a pointer to an object!
 ```
+
+Reference types:
++ Object
++ Array
++ Date
++ RegExp
++ Function
