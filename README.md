@@ -147,3 +147,25 @@ Reference types:
 + Date
 + RegExp
 + Function
+
+### 15.
+
+#### Regural Expressions
+
+```js
+var message = 'Tesla revealed Model 3.';
+var pattern = new RegExp('e', 'g');
+console.log(pattern.test(message)); // true
+```
+
++ [Example](https://repl.it/CEXA)
+
+```js
+var message = 'Tesla revealed Model 3.';
+var pattern = /e/g;
+console.log(pattern.test(message)); // true
+```
+
++ [Example](https://repl.it/CEXA)
+
+
