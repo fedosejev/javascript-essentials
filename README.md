@@ -166,6 +166,4 @@ var pattern = /e/g;
 console.log(pattern.test(message)); // true
 ```
 
-+ [Example](https://repl.it/CEXA)
-
-
++ [Example](https://repl.it/CEXH)
