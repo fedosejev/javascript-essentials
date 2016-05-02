@@ -178,6 +178,6 @@ var list = [1, 2, 3];
 
 Object.freeze(list);
 
-list[0] = 0;
+list[0] = 0; // TypeError: Cannot assign to read only property '0' of object '[object Array]'
 ```
 + [Example](https://repl.it/CMGz)
