@@ -169,7 +169,7 @@ console.log(pattern.test(message)); // true
 + [Example](https://repl.it/CEXH)
 
 
-## 16
+### 16.
 
 ```js
 'use strict';
