@@ -181,3 +181,46 @@ Object.freeze(list);
 list[0] = 0; // TypeError: Cannot assign to read only property '0' of object '[object Array]'
 ```
 + [Example](https://repl.it/CMGz)
+
+### 17.
+
+#### Impure function
+
+```js
+function squareArray(list) {
+	for (var i = 0; i < list.length; i++) {
+		list[i] = list[i] * list[i];
+	}
+	
+	return list;
+}
+
+var array = [1, 2, 3];
+
+squareArray(array);
+
+array; // [ 1, 4, 9 ]
+```
+
++ [Example](https://repl.it/CMIe)
+
+#### Pure function
+
+```js
+function squareArray(list) {
+	var array = [];
+	for (var i = 0; i < list.length; i++) {
+		array[i] = list[i] * list[i];
+	}
+	
+	return array;
+}
+
+var array = [1, 2, 3];
+
+squareArray(array);
+
+array; // [ 1, 2, 3 ]
+```
+
++ [Example](https://repl.it/CMIg)
