@@ -167,3 +167,17 @@ console.log(pattern.test(message)); // true
 ```
 
 + [Example](https://repl.it/CEXH)
+
+
+## 16
+
+```js
+'use strict';
+
+var list = [1, 2, 3];
+
+Object.freeze(list);
+
+list[0] = 0;
+```
++ [Example](https://repl.it/CMGz)
